@@ -50,18 +50,34 @@
         <!--Quick Links-->
         <scene sceneID="Os5-qz-VLX">
             <objects>
-                <tableViewController id="vV0-xm-gyt" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="rux-vF-nZq">
+                <tableViewController id="vV0-xm-gyt" customClass="QuickLinksViewController" customModule="ios_cs_app" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" id="rux-vF-nZq">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="9g7-mH-sBE">
-                                <rect key="frame" x="0.0" y="28" width="320" height="44"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" textLabel="OdO-MB-mbe" detailTextLabel="l3W-eV-pRA" style="IBUITableViewCellStyleSubtitle" id="9g7-mH-sBE">
+                                <rect key="frame" x="0.0" y="55.5" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="9g7-mH-sBE" id="Fh5-Wy-gUh">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="OdO-MB-mbe">
+                                            <rect key="frame" x="15" y="5" width="33.5" height="20.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="l3W-eV-pRA">
+                                            <rect key="frame" x="15" y="25.5" width="44" height="14.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
                                 </tableViewCellContentView>
                             </tableViewCell>
                         </prototypes>
@@ -70,11 +86,11 @@
                             <outlet property="delegate" destination="vV0-xm-gyt" id="0Fm-6G-cC6"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Quick Links" id="w1k-me-MOz"/>
+                    <navigationItem key="navigationItem" title="Quick Links" id="D1s-dn-5qH"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cU2-5Q-sZM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="114" y="973"/>
+            <point key="canvasLocation" x="1110" y="972.88732394366195"/>
         </scene>
         <!--My Productivity View Controller-->
         <scene sceneID="fSQ-42-2IP">
@@ -93,7 +109,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4cI-6l-FB3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2096.25" y="972.88732394366195"/>
+            <point key="canvasLocation" x="3093.75" y="972.88732394366195"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="O0B-zr-vY6">
@@ -109,7 +125,7 @@
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="Lpv-FT-gCj"/>
                         <segue destination="GXa-fM-fHG" kind="relationship" relationship="viewControllers" id="n9b-PP-daj"/>
                         <segue destination="UzR-QL-jgu" kind="relationship" relationship="viewControllers" id="kEb-p1-iE3"/>
-                        <segue destination="vV0-xm-gyt" kind="relationship" relationship="viewControllers" id="lDm-T8-uQY"/>
+                        <segue destination="ptt-rx-clE" kind="relationship" relationship="viewControllers" id="lDm-T8-uQY"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uwm-02-9Uz" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -152,7 +168,26 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4RF-IC-Io6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1098.75" y="972.88732394366195"/>
+            <point key="canvasLocation" x="2096.25" y="972.88732394366195"/>
+        </scene>
+        <!--Quick Links-->
+        <scene sceneID="0uj-Na-yHh">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ptt-rx-clE" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Quick Links" id="w1k-me-MOz"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="RPg-5c-UI5">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="vV0-xm-gyt" kind="relationship" relationship="rootViewController" id="OmE-1U-tKr"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WjC-CV-en4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="112.5" y="972.88732394366195"/>
         </scene>
     </scenes>
 </document>
