@@ -1,5 +1,16 @@
-[![Stories in Ready](https://badge.waffle.io/SRJC-Computer-Science-Club/club-app-ios.png?label=ready&title=Ready)](https://waffle.io/SRJC-Computer-Science-Club/club-app-ios)
+##### GitHub Issues
+[![Issues Ready]][Waffle.io] [![Stories in Ready][Issues In Progress]][Waffle.io] [![Stories in Needs Review][Issues Needs Review]][Waffle.io]
+Check out this [outline](https://cfoutliner.appspot.com/?view=SDF0US1NG) on [CarbonFin Outliner](http://carbonfin.com/)
 
-Stay updated and view issues on [Waffle.io!](https://waffle.io/SRJC-Computer-Science-Club/club-app-ios)
-# iOS-Club-App
-Check out this [outline](https://cfoutliner.appspot.com/?view=SDF0US1NG) on [CarbonFin Outliner](http://carbonfin.com/ffff)
+### About this project
+What's the product such as a program, an app, web tool, hardware or algorithm. 
+### The technologies
+Are there any modules or libraries used to collaborate in this project?
+### How to join and understand this project
+1. steps and links, if any, of downloading any libraries or programs
+2. any tutorials to best understand the project, if any
+
+[Waffle.io]:http://waffle.io/SRJC-Computer-Science-Club/cs-app-ios
+[Issues Ready]:https://badge.waffle.io/SRJC-Computer-Science-Club/cs-app-ios.png?label=ready&title=Ready
+[Issues In Progress]:https://badge.waffle.io/SRJC-Computer-Science-Club/cs-app-ios.png?label=in+progress&title=In+Progress
+[Issues Needs Review]:https://badge.waffle.io/SRJC-Computer-Science-Club/cs-app-ios.png?label=needs+review&title=Needs+Review
