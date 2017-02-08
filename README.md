@@ -7,9 +7,11 @@ This app, this awesome app will keep our members up-to-date on new changes to th
 ### The technologies
 The tools will limit a lot of programmers; a Mac is needed. The project was created using Xcode and as far as I know there's isn't a windows replica. GitHub's API will be the core service of this app so understanding that will play a good chunch of the development.
 
-- [Xcode](https://developer.apple.com/xcode/) is the IDE, tool to upload to the AppStore, etc
-- [GitHub API](https://developer.github.com/) [Guides](https://developer.github.com/guides/)
-- [iPhone Development Program](https://developer.apple.com/programs/) if the club wanted to develop on actual iOS devices vs being limited on the simulator. We'd use [TestFlight](https://developer.apple.com/testflight/)
+>[Xcode](https://developer.apple.com/xcode/) is the IDE, tool to upload to the AppStore, etc
+
+>[GitHub API](https://developer.github.com/) [Guides](https://developer.github.com/guides/)
+
+>[iPhone Development Program](https://developer.apple.com/programs/) if the club wanted to develop on actual iOS devices vs being limited on the simulator. We'd use [TestFlight](https://developer.apple.com/testflight/)
 
 ### How to join and understand this project
 1. No steps needed today
