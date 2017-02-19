@@ -1,14 +1,14 @@
 //
 //  ViewController.swift
-//  ios-cs-app
+//  CS App
 //
-//  Created by Erick Sanchez on 1/24/17.
+//  Created by Erick Sanchez on 1/23/17.
 //  Copyright © 2017 SRJC Computer Science Club. All rights reserved.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class ExplorerViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
